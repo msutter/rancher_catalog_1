@@ -1,0 +1,15 @@
+.catalog:
+  name: "Sinatra"
+  version: "v0.1-training"
+  description: "Sinatra"
+  uuid: sinatra-0
+  minimum_rancher_version: v0.51.0
+  questions:
+    - variable: public_port
+      description: "public port to access the blog"
+      label: "Public Port"
+      required: true
+      default: "80"
+      type: "int"
+
+sinatra:

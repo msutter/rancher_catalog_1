@@ -1,0 +1,4 @@
+sinatra:
+  image: erikap/ruby-sinatra
+  ports:
+    - ${public_port}:80
